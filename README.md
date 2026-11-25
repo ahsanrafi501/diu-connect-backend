@@ -15,3 +15,6 @@ npm run dev
 
 Open `http://localhost:4000/health` to check that the HTTP process responds.
 Set the `PORT` environment variable to use another port.
+
+For example, run `PORT=4001 npm run dev` and open
+`http://localhost:4001/health`. The server rejects invalid ports before listening.
