@@ -18,3 +18,8 @@ Set the `PORT` environment variable to use another port.
 
 For example, run `PORT=4001 npm run dev` and open
 `http://localhost:4001/health`. The server rejects invalid ports before listening.
+
+## Run the HTTP checks
+
+Run `npm test` to compile the backend and check its HTTP responses. The tests
+use an automatically assigned local port and do not need a database.
